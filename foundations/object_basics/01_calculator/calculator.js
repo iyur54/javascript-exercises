@@ -21,11 +21,11 @@ const power = function(num, pow) {
 };
 
 const factorial = function(num) {
-  let factorial = 1
+  let product = 1
   for (let i = 1; i <= num; i++) {
-    factorial *= i
+    product *= i
   }
-  return factorial
+  return product
 };
 
 // Do not edit below this line
